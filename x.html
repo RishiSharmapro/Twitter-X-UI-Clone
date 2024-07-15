@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class="bg-black text-white px-auto">
+    <div class="flex mx-auto w-fit ">
+
+        <div class="first lg:w-64 space-y-4 ">
+            <div class="sidebar w-fit p-2 pt-0 sticky top-0">
+                <div class="logo invert lg:ml-3 flex justify-center lg:block py-3">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+
+                <div
+                    class="flex items-center gap-3 text-xl font-bold w-fit p-[0.46rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer ">
+                    <span class="material-symbols-outlined text-4xl">
+                        home
+                    </span>
+                    <span class="hidden lg:block "> Home &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                    <span class=" hidden lg:block"> Explore &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        notifications
+                    </span>
+                    <span class=" hidden lg:block"> Notifications &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    <span class=" hidden lg:block"> Messages &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        code
+                    </span>
+                    <span class=" hidden lg:block"> Grok &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        featured_play_list
+                    </span>
+                    <span class=" hidden lg:block"> Lists &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        bookmark
+                    </span>
+                    <span class=" hidden lg:block"> Bookmarks &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        people
+                    </span>
+                    <span class=" hidden lg:block"> Communities &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        X
+                    </span>
+                    <span class=" hidden lg:block"> Primium &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        <!-- bolt -->
+                        flash_on
+                    </span>
+                    <span class=" hidden lg:block"> Verified Orgs &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <span class=" hidden lg:block"> Profile &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-2xl p-[0.56rem] hover:rounded-full hover:bg-gray-800 hover:cursor-pointer w-fit">
+                    <span class="material-symbols-outlined">
+                        pending
+                    </span>
+                    <span class=" hidden lg:block"> More &nbsp;&nbsp;&nbsp; </span>
+                </div>
+                <div
+                    class="flex items-center gap-3 text-xl font-bold bg-[#1d9bf0] rounded-full justify-center lg:w-52 lg:h-14 my-2 hover:cursor-pointer w-12 h-12">
+                    <span class=" block lg:hidden text-xl">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            aria-hidden="true"
+                            class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1472mwg r-lrsllp"
+                            style="color: rgb(255, 255, 255);">
+                            <path
+                                d="M23 3c-6.62-.1-10.38 2.421-13.05 6.03C7.29 12.61 6 17.331 6 22h2c0-1.007.07-2.012.19-3H12c4.1 0 7.48-3.082 7.94-7.054C22.79 10.147 23.17 6.359 23 3zm-7 8h-1.5v2H16c.63-.016 1.2-.08 1.72-.188C16.95 15.24 14.68 17 12 17H8.55c.57-2.512 1.57-4.851 3-6.78 2.16-2.912 5.29-4.911 9.45-5.187C20.95 8.079 19.9 11 16 11zM4 9V6H1V4h3V1h2v3h3v2H6v3H4z">
+
+                            </path>
+                        </svg> -->
+                        <span class="material-symbols-outlined flex items-center justify-center">
+                            temp_preferences_eco
+                        </span>
+                    </span>
+                    <span class=" hidden lg:block"> Post </span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="second w-[38rem] border border-[#34363a] border-y-black">
+            <div class="head flex p-4 relative">
+                <div class="w-16 h-1 bg-[#1d9bf0] rounded-full absolute left-[8rem] top-[3.2rem]"></div>
+                <div class="for-you w-1/2 flex justify-center">For you</div>
+                <div class="following w-1/2 flex justify-center">Following</div>
+            </div>
+            <hr class="border-[#34363a]">
+
+            <div class="foryou">
+                <div class="what-happening">
+                    <div class="top flex p-4 space-x-2">
+                        <div class="pic">
+                            <img src="profile-pic (2).png" alt="img" class="w-11 m-auto">
+                        </div>
+                        <div class="right w-full">
+                            <input type="text" placeholder="What is happening?!"
+                                class="w-full bg-black text-xl pb-3 pt-2 outline-none post-privacy ">
+                            <span
+                                class="text-[#1d9bf0] flex px-2 items-center gap-1 pb-3 text-sm hidden post-privacy-setting ">
+                                <span class="material-symbols-outlined text-base">
+                                    globe_asia
+                                </span>
+                                <span class="font-bold ">Everyone can reply</span>
+                            </span>
+                            <hr class="border-[#34363a]">
+                            <div class="club flex justify-between items-center">
+
+                                <div class="icons text-[#1d9bf0] pt-3 pl-2 space-x-3">
+                                    <span class="material-symbols-outlined text-xl cursor-pointer">
+                                        imagesmode
+                                    </span>
+                                    <span class="material-symbols-outlined text-xl cursor-pointer">
+                                        gif_box
+                                    </span>
+                                    <span class="material-symbols-outlined text-xl cursor-pointer">
+                                        format_list_bulleted
+                                    </span>
+                                    <span class="material-symbols-outlined text-xl cursor-pointer">
+                                        sentiment_satisfied
+                                    </span>
+                                    <span class="material-symbols-outlined text-xl cursor-pointer">
+                                        calendar_clock
+                                    </span>
+                                    <span class="material-symbols-outlined text-xl cursor-pointer text-[#0f354e]">
+                                        location_on
+                                    </span>
+                                </div>
+                                <div class="post-btn mt-3 ">
+                                    <button
+                                        class="bg-[#1d9bf0] w-20 h-9 rounded-full font-bold opacity-40">Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-[#34363a]">
+
+            <div class="posts">
+                <div class="post flex">
+                    <img src="profile-pic (2).png" alt="img" class="w-11 m-3 mb-auto">
+                    <div class="post-info w-full flex flex-col">
+
+                        <div class="user-info flex relative cursor-pointer w-full justify-between items-center pr-4 my-3">
+                            <div class="user-handle flex items-center ">
+                                <span>Rishi Sharma&nbsp;</span>
+                                <span class="material-symbols-outlined  text-lg text-[#346484]">verified</span>
+                                <span class="pl-2 text-[#6b6d72]">@rishi_sharma •&nbsp;</span>
+                                <span class="text-[#6b6d72]"> 8h</span>
+                            </div>
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-8 cursor-pointer w-8 flex justify-center items-center text-[#34363a]">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div class="content flex flex-col justify-start space-y-1 cursor-pointer mr-12 rounded-md">
+                            <p>I just cancelled my gym membership 👍👍👍</p>
+                            <img src="https://pbs.twimg.com/media/GScKxCoWoAEHwZO?format=png&name=small" alt="" class="rounded-lg border border-[#34363a]">
+                        </div>
+                        <div class="engagements flex gap-14 my-3">
+                            <div class="comments flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">mode_comment</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default">1.2k</span>
+                            </div>
+                            <div class="repost flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#3cbd58] hover:bg-[#0c2d17] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">repeat</span>
+                                <span class="text-[#6b6d72] hover:text-[#3cbd58] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="like flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#716b72] hover:text-[#bd3caa] hover:bg-[#210c2d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">favorite</span>
+                                <span class="text-[#6b6d72] hover:text-[#bd3caa] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bar_chart</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bookmark</span>
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">upload</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-[#34363a]">
+                <div class="post flex">
+                    <img src="profile-pic (2).png" alt="img" class="w-11 m-3 mb-auto">
+                    <div class="post-info w-full flex flex-col">
+
+                        <div class="user-info flex relative cursor-pointer w-full justify-between items-center pr-4 my-3">
+                            <div class="user-handle flex items-center ">
+                                <span>Rishi Sharma&nbsp;</span>
+                                <span class="material-symbols-outlined  text-lg text-[#346484]">verified</span>
+                                <span class="pl-2 text-[#6b6d72]">@rishi_sharma •&nbsp;</span>
+                                <span class="text-[#6b6d72]"> 8h</span>
+                            </div>
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-8 cursor-pointer w-8 flex justify-center items-center text-[#34363a]">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div class="content flex flex-col justify-start space-y-1 cursor-pointer mr-12 rounded-md">
+                            <p>Yup 💯</p>
+                            <img src="https://pbs.twimg.com/media/GRTIw2fWQAA-y-2?format=jpg&name=large" alt="" class="rounded-lg border border-[#34363a]">
+                        </div>
+                        <div class="engagements flex gap-14 my-3">
+                            <div class="comments flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">mode_comment</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default">1.2k</span>
+                            </div>
+                            <div class="repost flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#3cbd58] hover:bg-[#0c2d17] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">repeat</span>
+                                <span class="text-[#6b6d72] hover:text-[#3cbd58] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="like flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#716b72] hover:text-[#bd3caa] hover:bg-[#210c2d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">favorite</span>
+                                <span class="text-[#6b6d72] hover:text-[#bd3caa] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bar_chart</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bookmark</span>
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">upload</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-[#34363a]">
+                <div class="post flex">
+                    <img src="profile-pic (2).png" alt="img" class="w-11 m-3 mb-auto">
+                    <div class="post-info w-full flex flex-col">
+
+                        <div class="user-info flex relative cursor-pointer w-full justify-between items-center pr-4 my-3">
+                            <div class="user-handle flex items-center ">
+                                <span>Rishi Sharma&nbsp;</span>
+                                <span class="material-symbols-outlined  text-lg text-[#346484]">verified</span>
+                                <span class="pl-2 text-[#6b6d72]">@rishi_sharma •&nbsp;</span>
+                                <span class="text-[#6b6d72]"> 8h</span>
+                            </div>
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-8 cursor-pointer w-8 flex justify-center items-center text-[#34363a]">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div class="content flex flex-col justify-start space-y-1 cursor-pointer mr-12 rounded-md">
+                            <p>It's getting more stressful. </p>
+                            <img src="https://pbs.twimg.com/card_img/1812522994167889922/Xp_DxLk4?format=jpg&name=medium" alt="" class="rounded-lg border border-[#34363a]">
+                        </div>
+                        <div class="engagements flex gap-14 my-3">
+                            <div class="comments flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">mode_comment</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default">1.2k</span>
+                            </div>
+                            <div class="repost flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#3cbd58] hover:bg-[#0c2d17] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">repeat</span>
+                                <span class="text-[#6b6d72] hover:text-[#3cbd58] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="like flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#716b72] hover:text-[#bd3caa] hover:bg-[#210c2d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">favorite</span>
+                                <span class="text-[#6b6d72] hover:text-[#bd3caa] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bar_chart</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bookmark</span>
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">upload</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-[#34363a]">
+                <div class="post flex">
+                    <img src="profile-pic (2).png" alt="img" class="w-11 m-3 mb-auto">
+                    <div class="post-info w-full flex flex-col">
+
+                        <div class="user-info flex relative cursor-pointer w-full justify-between items-center pr-4 my-3">
+                            <div class="user-handle flex items-center ">
+                                <span>Rishi Sharma&nbsp;</span>
+                                <span class="material-symbols-outlined  text-lg text-[#346484]">verified</span>
+                                <span class="pl-2 text-[#6b6d72]">@rishi_sharma •&nbsp;</span>
+                                <span class="text-[#6b6d72]"> 8h</span>
+                            </div>
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-8 cursor-pointer w-8 flex justify-center items-center text-[#34363a]">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div class="content flex flex-col justify-start space-y-1 cursor-pointer mr-12 rounded-md">
+                            <p></p>
+                            <img src="https://pbs.twimg.com/media/GRakeELaoAAcdvZ?format=jpg&name=medium" alt="" class="rounded-lg border border-[#34363a]">
+                        </div>
+                        <div class="engagements flex gap-14 my-3">
+                            <div class="comments flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">mode_comment</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default">1.2k</span>
+                            </div>
+                            <div class="repost flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#3cbd58] hover:bg-[#0c2d17] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">repeat</span>
+                                <span class="text-[#6b6d72] hover:text-[#3cbd58] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="like flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#716b72] hover:text-[#bd3caa] hover:bg-[#210c2d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">favorite</span>
+                                <span class="text-[#6b6d72] hover:text-[#bd3caa] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bar_chart</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bookmark</span>
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">upload</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-[#34363a]">
+                <div class="post flex">
+                    <img src="profile-pic (2).png" alt="img" class="w-11 m-3 mb-auto">
+                    <div class="post-info w-full flex flex-col">
+
+                        <div class="user-info flex relative cursor-pointer w-full justify-between items-center pr-4 my-3">
+                            <div class="user-handle flex items-center ">
+                                <span>Rishi Sharma&nbsp;</span>
+                                <span class="material-symbols-outlined  text-lg text-[#346484]">verified</span>
+                                <span class="pl-2 text-[#6b6d72]">@rishi_sharma •&nbsp;</span>
+                                <span class="text-[#6b6d72]"> 8h</span>
+                            </div>
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-8 cursor-pointer w-8 flex justify-center items-center text-[#34363a]">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div class="content flex flex-col justify-start space-y-1 cursor-pointer mr-12 rounded-md">
+                            <p>😂 💯</p>
+                            <img src="https://pbs.twimg.com/media/GScdnTcW8AEu1uj?format=jpg&name=medium" alt="" class="rounded-lg border border-[#34363a]">
+                        </div>
+                        <div class="engagements flex gap-14 my-3">
+                            <div class="comments flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">mode_comment</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default">1.2k</span>
+                            </div>
+                            <div class="repost flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#3cbd58] hover:bg-[#0c2d17] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">repeat</span>
+                                <span class="text-[#6b6d72] hover:text-[#3cbd58] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="like flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#716b72] hover:text-[#bd3caa] hover:bg-[#210c2d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">favorite</span>
+                                <span class="text-[#6b6d72] hover:text-[#bd3caa] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bar_chart</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bookmark</span>
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">upload</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-[#34363a]">
+                <div class="post flex">
+                    <img src="profile-pic (2).png" alt="img" class="w-11 m-3 mb-auto ">
+                    <div class="post-info w-full flex flex-col">
+
+                        <div class="user-info flex relative cursor-pointer w-full justify-between items-center pr-4 my-3">
+                            <div class="user-handle flex items-center ">
+                                <span>Rishi Sharma&nbsp;</span>
+                                <!-- <span class="material-symbols-outlined  text-lg text-[#346484]">verified</span> -->
+                                <span class="pl-2 text-[#6b6d72]">@tanu_2710 •&nbsp;</span>
+                                <span class="text-[#6b6d72]"> 12h</span>
+                            </div>
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-8 cursor-pointer w-8 flex justify-center items-center text-[#34363a]">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div class="content flex flex-col justify-start space-y-1 cursor-pointer mr-12 rounded-md">
+                            <p> Welcome to the Coders world</p>
+                            <img src="https://pbs.twimg.com/media/GK5gZc0bMAE4UDi?format=png&name=900x900" alt="" class="rounded-lg border border-[#34363a]">
+                        </div>
+                        <div class="engagements flex gap-14 my-3">
+                            <div class="comments flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">mode_comment</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default">34</span>
+                            </div>
+                            <div class="repost flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#3cbd58] hover:bg-[#0c2d17] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">repeat</span>
+                                <span class="text-[#6b6d72] hover:text-[#3cbd58] cursor-default">0</span>
+                            </div>
+                            <div class="like flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#716b72] hover:text-[#bd3caa] hover:bg-[#210c2d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">favorite</span>
+                                <span class="text-[#6b6d72] hover:text-[#bd3caa] cursor-default"> 467</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bar_chart</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default"> 1k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bookmark</span>
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">upload</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-[#34363a]">
+                <hr class="border-[#34363a]">
+                <div class="post flex">
+                    <img src="profile-pic (2).png" alt="img" class="w-11 m-3 mb-auto">
+                    <div class="post-info w-full flex flex-col">
+
+                        <div class="user-info flex relative cursor-pointer w-full justify-between items-center pr-4 my-3">
+                            <div class="user-handle flex items-center ">
+                                <span>Rishi Sharma&nbsp;</span>
+                                <span class="material-symbols-outlined  text-lg text-[#346484]">verified</span>
+                                <span class="pl-2 text-[#6b6d72]">@rishi_sharma •&nbsp;</span>
+                                <span class="text-[#6b6d72]"> 8h</span>
+                            </div>
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-8 cursor-pointer w-8 flex justify-center items-center text-[#34363a]">
+                                more_horiz
+                            </span>
+                        </div>
+                        <div class="content flex flex-col justify-start space-y-1 cursor-pointer mr-12 rounded-md">
+                            <p>Yup 💯</p>
+                            <img src="https://pbs.twimg.com/media/GRCmYXZXkAM_fwJ?format=jpg&name=medium" alt="" class="rounded-lg border border-[#34363a]">
+                        </div>
+                        <div class="engagements flex gap-14 my-3">
+                            <div class="comments flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">mode_comment</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default">1.2k</span>
+                            </div>
+                            <div class="repost flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#3cbd58] hover:bg-[#0c2d17] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">repeat</span>
+                                <span class="text-[#6b6d72] hover:text-[#3cbd58] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="like flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#716b72] hover:text-[#bd3caa] hover:bg-[#210c2d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">favorite</span>
+                                <span class="text-[#6b6d72] hover:text-[#bd3caa] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bar_chart</span>
+                                <span class="text-[#6b6d72] hover:text-[#1d9bf0] cursor-default"> 1.2k</span>
+                            </div>
+                            <div class="view flex items-center">
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">bookmark</span>
+                                <span class="material-symbols-outlined text-xl text-[#6b6d72] hover:text-[#1d9bf0] hover:bg-[#0c202d] hover:rounded-full w-8 flex justify-center h-8 items-center cursor-default">upload</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="thrid w-[25rem] pl-9 space-y-3 py-1 hidden lg:block relative">
+            <div class="sticky-search sticky top-0 py-2 w-full bg-black z-10">
+                <div class="search flex w-full h-10 bg-[#212327] rounded-full items-center ">
+                    <div class="search-icon flex">
+                        <span class="material-symbols-outlined px-4 text-gray-500">search</span>
+                    </div>
+                    <input type="text" placeholder="Search"
+                        class="rounded-full w-full h-10 bg-[#212327] focus:border-none focus:ring-0 focus:outline-none pl-1">
+                </div>
+            </div>
+
+            <div class="subscribe rounded-xl space-y-3 py-2 px-4 border-[#34363a] border">
+                <h1 class="font-bold text-[1.3rem]">Subscribe to Premium</h1>
+                <span>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</span>
+                <button class="bg-[#1d9bf0] h-9 rounded-full font-bold px-6">Subscribe
+                </button>
+            </div>
+
+            <div class="whats rounded-xl space-y-2 py-2 px-4 border-[#34363a] border sticky top-20">
+                <h1 class="font-bold text-[1.3rem]">What’s happening</h1>
+                <div class="items ">
+                    <a href="" class="block py-3">
+                        <div class="genre text-[#585858] relative text-sm">Entertainment • Trending
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-9 w-9 flex justify-center items-center absolute top-3 right-2">more_horiz
+                            </span>
+                        </div>
+                        <span class="tag block font-bold">#BoycottBollywood</span>
+                        <span class="text-[#585858] text-sm">5390 posts</span>
+                    </a>
+                    <a href="" class="block py-3">
+                        <div class="genre text-[#585858] relative text-sm">Entertainment • Trending
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-9 w-9 flex justify-center items-center absolute top-3 right-2">more_horiz</span>
+                        </div>
+                        <span class="tag block font-bold">#NEETPaperLeak2024</span>
+                        <span class="text-[#585858] text-sm">3719 posts</span>
+                    </a>
+                    <a href="" class="block py-3">
+                        <div class="genre text-[#585858] relative text-sm">Entertainment • Trending
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-9 w-9 flex justify-center items-center absolute top-3 right-2">more_horiz</span>
+                        </div>
+                        <span class="tag block font-bold">#BoycottBollywood</span>
+                        <span class="text-[#585858] text-sm">5390 posts</span>
+                    </a>
+                    <a href="" class="block py-3">
+                        <div class="genre text-[#585858] relative text-sm">Entertainment • Trending
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-9 w-9 flex justify-center items-center absolute top-3 right-2">more_horiz</span>
+                        </div>
+                        <span class="tag block font-bold">#BoycottBollywood</span>
+                        <span class="text-[#585858] text-sm">5390 posts</span>
+                    </a>
+                    <a href="" class="block py-3">
+                        <div class="genre text-[#585858] relative text-sm">Entertainment • Trending
+                            <span
+                                class="material-symbols-outlined hover:text-[#8cc4ea] hover:bg-[#0c202d] hover:rounded-full h-9 w-9 flex justify-center items-center absolute top-3 right-2">more_horiz</span>
+                        </div>
+                        <span class="tag block font-bold">#BoycottBollywood</span>
+                        <span class="text-[#585858] text-sm">5390 posts</span>
+                    </a>
+                </div>
+                <div class="text-[#1d9bf0] hover:cursor-pointer">Show more</div>
+            </div>
+
+            <div class="subscribe rounded-xl space-y-5 py-2 px-4 border-[#34363a] border sticky top-[40rem]">
+                <h1 class="font-bold text-[1.3rem]">Who to follow</h1>
+                <div class="accounts flex space-x-4 items-center cursor-pointer">
+                    <img class=" h-9 rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_x96.jpg" alt="BillGates">
+                    <div class="handle pr-24">
+                        <div class="acc-name hover:underline cursor-pointer">Bill Gates</div>
+                        <div class="acc-handle cursor-pointer">@BillGates</div>
+                    </div>
+                    <div
+                        class="acc-follow rounded-3xl bg-white text-black font-bold border w-24 h-9 flex items-center justify-center cursor-pointer hover:bg-[#cbcbcb]">
+                        Follow</div>
+                </div>
+                <div class="accounts flex space-x-4 items-center cursor-pointer">
+                    <img class=" h-9 rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_x96.jpg" alt="BillGates">
+                    <div class="handle pr-24">
+                        <div class="acc-name hover:underline cursor-pointer">Bill Gates</div>
+                        <div class="acc-handle cursor-pointer">@BillGates</div>
+                    </div>
+                    <div
+                        class="acc-follow rounded-3xl bg-white text-black font-bold border w-24 h-9 flex items-center justify-center cursor-pointer hover:bg-[#cbcbcb]">
+                        Follow</div>
+                </div>
+                <div class="accounts flex space-x-4 items-center cursor-pointer">
+                    <img class=" h-9 rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_x96.jpg" alt="BillGates">
+                    <div class="handle pr-24">
+                        <div class="acc-name hover:underline cursor-pointer">Bill Gates</div>
+                        <div class="acc-handle cursor-pointer">@BillGates</div>
+                    </div>
+                    <div
+                        class="acc-follow rounded-3xl bg-white text-black font-bold border w-24 h-9 flex items-center justify-center cursor-pointer hover:bg-[#cbcbcb]">
+                        Follow</div>
+                </div>
+                <div class="text-[#1d9bf0] hover:cursor-pointer">Show more</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        document.querySelector(".post-privacy").addEventListener("click", () => {
+            // console.log('clicked');
+            document.querySelector('.post-privacy-setting').classList.remove('hidden');
+
+        })
+        // console.log(document.querySelector(".post-privacy"));
+
+    </script>
+</body>
+
+</html>
